@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:loss"
+    - path: "./test"
+      component: "test:loss-tests"
+    - path: "./app"
+      component: "exe:loss"
